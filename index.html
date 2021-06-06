@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-holder">
+            <div class="container1">
+    <header>
+    <h1>Tip Calculator</h1>
+    <h2></h2>
+</header>
+    <form action="">
+        <div>
+            <p class="p1"></p>
+            <p class="p2"></p>
+            <p class="p3"></p>
+            <p class="p4"></p>
+        </div>
+        <div> 
+            <p class="p5"></p>
+            <p class="p6"></p>
+            <p class="p7"></p>
+            <p class="p8"></p>
+        </div>
+    </form>
+
+    <section>
+        <div>
+    <div class="content">
+    <label for="">Price ($) </label><br><br>
+  <input type="number" class="price" placeholder="0"><br><br>
+</div>
+
+
+<div class="content">
+    <label for=""> Tip (%) </label><br><br>
+    <select class="tip">
+        <option disabled selected value="0">-- Choose an Option --</option>
+        <option value="0.5">100&#37; &#45; Excellent</option>
+        <option value="0.4">70&#37; &#45; Good</option>
+        <option value="0.2">50&#37; &#45; Fair</option>
+        <option value="0.1">10&#37; &#45; Bad</option>
+        <option value="0.05">5&#37; &#45; Terrible</option>
+    </select><br><br>
+</div>
+
+<div class="content">
+<label for="">Number of People </label><br><br>
+  <input type="number" class="people" placeholder="0"><br><br>
+</div>
+
+<div class="btn">
+    <button onclick="Calc()" class="button1">Calculate</button>
+    <button class="clearBtn">Clear</button>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
