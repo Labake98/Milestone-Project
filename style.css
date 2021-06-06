@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+ background-color: black;
+ color: white;
+ padding: 5px;
+ margin-left: 20%;
+ margin-right: 20%;
+ text-align: center;
+}
+
+.container1 form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 form div{
+    display: block;
+}
+
+.p1, .p2, .p3, .p4{
+    text-align: left;
+}
+
+.p5, .p6, .p7, .p8{
+    text-align: right;
+}
+
+/*.table1 {
+    padding: 16px;
+    margin-left: 40%;
+    font-weight: bold;
+
+}*/
+
+section{
+    background: #eee;
+    border: solid 1px #bbbbbb;
+    padding: 7px;
+    margin: 5%;
+}
+
+
+.content{
+    display: table-row-group;
+    text-align: center;
+}
+
+.content label{
+    display: table-cell;
+}
+
+.content input{
+    display: table-cell;
+    border: 1px solid #4478ac;
+    box-shadow: 1px 2px 2px;
+    margin-bottom: 2px;
+    padding: 5%;
+    margin-left: 2%;
+    font-size: large;
+    width: 50%;
+    text-align: left;
+}
+
+.tip{
+    display: table-cell;
+    border: 1px solid #4478ac;
+    box-shadow: 1px 2px 2px;
+    margin-bottom: 2px;
+    padding: 8%;
+    margin-left: 2%;
+    font-size: large;
+    width: 70%;
+    text-align: left;
+}
+.button1{
+    padding: 5px;
+    margin-left: 50%;
+    border-radius: 3px;
+    background-color: #477721;
+    font-weight: bold; 
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #bbbbbb;  
+    font-weight: bold;
+}
